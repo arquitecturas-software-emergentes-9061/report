@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#334155"/>
+    </marker>
+    <style>
+      .title { font: 700 34px Arial, sans-serif; fill: #0f172a; }
+      .subtitle { font: 400 18px Arial, sans-serif; fill: #475569; }
+      .boxTitle { font: 700 22px Arial, sans-serif; fill: #0f172a; }
+      .boxText { font: 400 16px Arial, sans-serif; fill: #334155; }
+      .person { fill: #f8fafc; stroke: #475569; stroke-width: 2; rx: 18; }
+      .system { fill: #dbeafe; stroke: #2563eb; stroke-width: 3; rx: 18; }
+      .external { fill: #f1f5f9; stroke: #64748b; stroke-width: 2; rx: 18; }
+      .relation { stroke: #334155; stroke-width: 2.4; fill: none; marker-end: url(#arrow); }
+      .dashed { stroke-dasharray: 10 8; }
+      .label { font: 600 15px Arial, sans-serif; fill: #334155; }
+      .note { font: italic 14px Arial, sans-serif; fill: #64748b; }
+    </style>
+  </defs>
+
+  <rect width="1400" height="900" fill="#ffffff"/>
+  <text x="700" y="55" text-anchor="middle" class="title">C4 Context Diagram</text>
+  <text x="700" y="88" text-anchor="middle" class="subtitle">AR Indoor Navigation Platform</text>
+
+  <rect x="500" y="300" width="400" height="260" class="system"/>
+  <text x="700" y="355" text-anchor="middle" class="boxTitle">AR Indoor Navigation Platform</text>
+  <text x="700" y="397" text-anchor="middle" class="boxText">Provides indoor venue configuration,</text>
+  <text x="700" y="427" text-anchor="middle" class="boxText">route guidance, points of interest and</text>
+  <text x="700" y="457" text-anchor="middle" class="boxText">contextual AR assistance for patients.</text>
+  <text x="700" y="500" text-anchor="middle" class="boxText">Captures navigation events and insights</text>
+  <text x="700" y="530" text-anchor="middle" class="boxText">to support clinic operations.</text>
+
+  <rect x="70" y="160" width="300" height="150" class="person"/>
+  <text x="220" y="203" text-anchor="middle" class="boxTitle">Patient / Visitor</text>
+  <text x="220" y="238" text-anchor="middle" class="boxText">Searches for a destination and</text>
+  <text x="220" y="263" text-anchor="middle" class="boxText">follows indoor / AR guidance.</text>
+
+  <rect x="70" y="590" width="300" height="150" class="person"/>
+  <text x="220" y="633" text-anchor="middle" class="boxTitle">Clinic Operations Staff</text>
+  <text x="220" y="668" text-anchor="middle" class="boxText">Configures the digital venue and</text>
+  <text x="220" y="693" text-anchor="middle" class="boxText">reviews operational insights.</text>
+
+  <rect x="1030" y="160" width="300" height="150" class="external"/>
+  <text x="1180" y="203" text-anchor="middle" class="boxTitle">Clinic Information Systems</text>
+  <text x="1180" y="238" text-anchor="middle" class="boxText">Potential source of appointment,</text>
+  <text x="1180" y="263" text-anchor="middle" class="boxText">service and destination data.</text>
+
+  <rect x="1030" y="590" width="300" height="150" class="external"/>
+  <text x="1180" y="633" text-anchor="middle" class="boxTitle">Spatial / Positioning Capability</text>
+  <text x="1180" y="668" text-anchor="middle" class="boxText">Provides device/space reference needed</text>
+  <text x="1180" y="693" text-anchor="middle" class="boxText">to calculate or render indoor guidance.</text>
+
+  <path d="M370 235 C450 245, 465 325, 500 365" class="relation"/>
+  <text x="438" y="278" text-anchor="middle" class="label">selects destination / navigates</text>
+
+  <path d="M500 430 C455 430, 430 345, 370 285" class="relation"/>
+  <text x="430" y="383" text-anchor="middle" class="label">returns route and AR guidance</text>
+
+  <path d="M370 665 C450 650, 465 555, 500 515" class="relation"/>
+  <text x="442" y="610" text-anchor="middle" class="label">maintains venue data</text>
+
+  <path d="M500 485 C455 535, 430 615, 370 635" class="relation"/>
+  <text x="440" y="552" text-anchor="middle" class="label">provides insights</text>
+
+  <path d="M900 365 C955 330, 980 265, 1030 245" class="relation dashed"/>
+  <text x="969" y="307" text-anchor="middle" class="label">optional data integration</text>
+
+  <path d="M1030 665 C975 640, 955 535, 900 500" class="relation"/>
+  <text x="974" y="584" text-anchor="middle" class="label">spatial reference</text>
+
+  <text x="700" y="820" text-anchor="middle" class="note">The context remains technology-agnostic until the team finalizes indoor positioning and integration decisions.</text>
+</svg>

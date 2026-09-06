@@ -62,37 +62,41 @@
 
 ## 4.3. Software Architecture
 
-La arquitectura de la solución se documenta mediante **C4 Model**, comenzando por las vistas estratégicas que permiten comprender el ecosistema y los límites del sistema antes de definir containers, componentes y decisiones de despliegue. En esta etapa se evita fijar prematuramente una tecnología concreta de posicionamiento indoor o un proveedor externo: dichas decisiones deben desprenderse de los architectural drivers, quality attributes, restricciones y bounded contexts que el equipo continuará refinando.
+La arquitectura de la solución se documenta mediante **C4 Model utilizando Structurizr**, siguiendo la semántica oficial del DSL y las vistas disponibles en **Structurizr Playground**. El modelo arquitectónico se define como una fuente única y consistente, mientras que en el Project Report se incluyen únicamente las imágenes exportadas de las vistas correspondientes; el código DSL no forma parte del informe.
 
-Las vistas presentadas a continuación describen el alcance conceptual actual del producto: una plataforma B2B para clínicas y establecimientos de salud que permite configurar un espacio indoor y asistir a pacientes/visitantes durante su recorrido mediante navegación contextual y realidad aumentada. La arquitectura deberá evolucionar sin perder consistencia con el análisis de usuarios, las historias de usuario y las decisiones de Domain-Driven Design.
+De acuerdo con la documentación oficial de Structurizr, la vista **System Landscape** permite mostrar personas y software systems dentro del ecosistema general, mientras que la vista **System Context** se centra en un software system concreto y muestra las personas y sistemas directamente relacionados con él. Ambas vistas se han planteado con claves estables y relaciones explícitas, manteniendo el modelo independiente de decisiones tecnológicas que todavía no han sido cerradas.
+
+Las vistas describen el alcance conceptual actual del producto: una plataforma B2B para clínicas y establecimientos de salud que permite configurar un espacio indoor y asistir a pacientes o visitantes durante su recorrido mediante navegación contextual y realidad aumentada. En esta etapa se evita fijar prematuramente un proveedor o tecnología específica de posicionamiento indoor; esa decisión deberá desprenderse posteriormente de los architectural drivers, restricciones y quality attributes.
 
 ### 4.3.1. Software Architecture System Landscape Diagram
 
-El **System Landscape Diagram** presenta el ecosistema de alto nivel en el que opera la solución. El sistema principal es la *AR Indoor Navigation Platform*. Sus usuarios principales son el paciente o visitante que necesita orientación y el personal del establecimiento responsable de mantener información del espacio y revisar insights operativos.
+El **Software Architecture System Landscape Diagram** muestra el ecosistema de alto nivel asociado a la propuesta. El sistema de interés es la **AR Indoor Navigation Platform**, utilizada por pacientes o visitantes y administrada por personal operativo de la clínica. El landscape incorpora además los sistemas externos relevantes para comprender el contexto global sin bajar todavía al detalle de containers o componentes.
 
-También se muestran dos dependencias del entorno que todavía se mantienen de forma tecnológicamente neutral. Por un lado, los sistemas de información de la clínica pueden convertirse en fuente de datos de citas, servicios o destinos cuando se definan integraciones posteriores. Por otro lado, la navegación necesita una capacidad de referencia espacial o posicionamiento indoor; la tecnología concreta todavía debe seleccionarse mediante el proceso de diseño arquitectónico.
+La vista fue modelada siguiendo la definición `systemLandscape` de Structurizr, donde se incluyen las personas y software systems relevantes y sus relaciones. La imagen incluida en el informe corresponde a la representación visual del modelo y no expone el código DSL utilizado para construirla.
 
 ![Software Architecture System Landscape Diagram](../assets/chapter-04/c4/system-landscape/system-landscape.svg)
 
 **Elementos principales del landscape:**
 
-- **Patient / Visitor:** utiliza la solución para seleccionar un destino y recibir asistencia durante el recorrido.
-- **Clinic Operations Staff:** configura destinos, rutas e información del establecimiento y consulta datos útiles para operación.
-- **AR Indoor Navigation Platform:** sistema desarrollado por el equipo que concentra configuración del venue, navegación indoor, asistencia AR y generación de eventos/insights.
-- **Clinic Information Systems:** sistemas externos potenciales que pueden aportar información de citas, servicios o directorios cuando exista una integración definida.
-- **Spatial / Positioning Capability:** capacidad técnica necesaria para conocer o inferir la referencia espacial del usuario. Se representa sin proveedor específico porque la decisión todavía está abierta.
+- **Patient / Visitor:** persona que necesita localizar servicios y navegar dentro de la clínica.
+- **Clinic Operations Staff:** personal administrativo u operativo que mantiene información del establecimiento y participa en la gestión de la orientación del paciente.
+- **AR Indoor Navigation Platform:** software system desarrollado por el equipo para brindar navegación indoor y asistencia contextual mediante AR.
+- **Clinic Information Systems:** software systems externos que pueden proporcionar información de citas, servicios, directorios o destinos cuando se definan integraciones.
+- **Spatial / Positioning Capability:** software system o capacidad externa que proporciona la referencia espacial necesaria para la navegación indoor.
 
-La representación evita convertir alternativas tecnológicas aún no evaluadas en compromisos arquitectónicos. De esta manera el landscape puede mantenerse estable mientras el equipo compara estrategias de positioning, actualización de planos e integración con sistemas clínicos.
+La tecnología concreta utilizada para posicionamiento se mantiene intencionalmente abstracta. Esto evita convertir una alternativa todavía no evaluada en una decisión arquitectónica definitiva y permite que el diseño evolucione después del análisis de drivers.
 
 ### 4.3.2. Software Architecture Context Level Diagrams
 
-El **Context Diagram** delimita la *AR Indoor Navigation Platform* como un único sistema de software y muestra las relaciones que mantiene con personas y sistemas externos. Este nivel no expone todavía aplicaciones, bases de datos, APIs ni componentes internos; dichas responsabilidades se detallarán en el Container Diagram y en las vistas tácticas posteriores.
+El **Software Architecture Context Level Diagram** representa la vista `systemContext` de Structurizr para la **AR Indoor Navigation Platform**. Según la definición oficial de esta vista, el software system de interés se presenta junto con las personas y software systems que mantienen una relación directa con él.
+
+Este nivel muestra el límite del sistema sin introducir aplicaciones internas, bases de datos, APIs o componentes. El detalle de dichas responsabilidades se desarrollará posteriormente en el Container Diagram y en el Tactical-Level Software Design.
 
 ![Software Architecture Context Level Diagram](../assets/chapter-04/c4/context/context-diagram.svg)
 
-Desde la perspectiva del paciente, el sistema recibe la selección del destino y la interacción de navegación, y devuelve la ruta e indicaciones contextuales/AR. Desde la perspectiva operativa, el personal de la clínica mantiene la información del venue y consulta insights derivados del uso. La relación con sistemas clínicos se presenta como una integración opcional futura, mientras que la capacidad espacial/posicionamiento representa una dependencia necesaria cuyo mecanismo concreto aún debe definirse.
+Desde la perspectiva del paciente o visitante, la plataforma permite seleccionar un destino y recibir indicaciones durante el recorrido. Desde la perspectiva del personal operativo, permite mantener información del venue y revisar datos asociados al uso de la navegación. La solución puede relacionarse con sistemas de información de la clínica para obtener datos relevantes y necesita una capacidad de posicionamiento o referencia espacial para determinar la ubicación del usuario dentro del establecimiento.
 
-Esta vista establece un límite claro para el sistema y permite que las siguientes decisiones arquitectónicas respondan preguntas más específicas: qué containers asumirán la experiencia móvil y administrativa, dónde se ubicará la lógica de navegación, cómo se persistirá la configuración del establecimiento y de qué forma se desacoplará el mecanismo de posicionamiento para poder evolucionarlo sin afectar al resto de la solución.
+La vista permanece deliberadamente **technology-agnostic** respecto al mecanismo de positioning. El objetivo de este nivel es establecer correctamente actores, sistemas externos, límites y relaciones; las decisiones tecnológicas deben justificarse en los niveles posteriores del proceso arquitectónico.
 
 ### 4.3.3. Software Architecture Container Level Diagrams
 

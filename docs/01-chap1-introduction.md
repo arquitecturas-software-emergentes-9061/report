@@ -10,7 +10,25 @@
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
-*Qué debe ir: Por cada integrante incluir foto, nombres y apellidos, código de estudiante, carrera y un breve resumen de conocimientos técnicos y habilidades que puede aportar al equipo.*
+<br>
+
+<table>
+  <tr>
+    <th>Integrante</th>
+    <th>Foto</th>
+    <th>Descripcion</th>
+  </tr>
+  <tr>
+    <td>José Jahaziel Guerra Perez (u202319831)</td>
+    <td> <img src="https://i.ibb.co/LssNdfh/IMG-8966.jpg" alt="Imagen Jahaziel Guerra" style="width: 750px; margin-right: 20px; border-radius: 10%;"> </td>
+    <td>
+      Soy estudiante de Ingeniería de Software, actualmente cursando el octavo ciclo de la carrera. Me apasiona el aprendizaje continuo, la planificación detallada y la búsqueda de soluciones eficientes a problemas reales. <br>
+      Mi enfoque profesional está orientado al desarrollo de software y al diseño de soluciones con una visión sistémica, con especial interés en backend, arquitecturas distribuidas, automatización, integración de servicios y construcción de productos escalables y mantenibles. <br>
+      Asimismo, me interesa la aplicación de inteligencia artificial y modelos de lenguaje dentro de productos de software, especialmente cuando pueden integrarse con sistemas empresariales, procesos de automatización y flujos orientados a eventos para generar valor de negocio. También cuento con experiencia trabajando con APIs, procesamiento de datos, Git, GitHub y prácticas colaborativas como Git Flow y Conventional Commits. <br>
+      Dentro del equipo, aporto principalmente en el análisis y diseño de arquitectura, definición de componentes y servicios, evaluación de alternativas tecnológicas, integración técnica y desarrollo de soluciones orientadas a resolver necesidades reales de los usuarios. Mi objetivo profesional es continuar desarrollándome como Full Stack Developer con una visión integral de arquitectura, cloud computing, automatización e inteligencia artificial aplicada al software.
+    </td>
+  </tr>
+</table>
 
 ## 1.2. Solution Profile
 

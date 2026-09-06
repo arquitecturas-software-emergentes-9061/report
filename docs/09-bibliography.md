@@ -17,3 +17,11 @@ MazeMap. (s. f.). *Pricing*. https://mazemap.com/our-maps/pricing
 Pointr. (s. f.). *Healthcare mapping & navigation system*. https://www.pointr.tech/sectors/healthcare
 
 Pointr. (s. f.). *Pointr packages: Rich maps & indoor location*. https://www.pointr.tech/packages
+
+Structurizr. (s. f.). *Structurizr DSL*. https://docs.structurizr.com/dsl
+
+Structurizr. (s. f.). *Language reference*. https://docs.structurizr.com/dsl/language
+
+Structurizr. (s. f.). *System context view*. https://docs.structurizr.com/dsl/cookbook/system-context-view/
+
+Structurizr. (s. f.). *Playground*. https://docs.structurizr.com/playground

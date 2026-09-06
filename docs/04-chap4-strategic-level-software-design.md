@@ -74,7 +74,7 @@ El **Software Architecture System Landscape Diagram** muestra el ecosistema de a
 
 La vista fue modelada siguiendo la definición `systemLandscape` de Structurizr, donde se incluyen las personas y software systems relevantes y sus relaciones. La imagen incluida en el informe corresponde a la representación visual del modelo y no expone el código DSL utilizado para construirla.
 
-![Software Architecture System Landscape Diagram](../assets/chapter-04/c4/system-landscape/system-landscape.svg)
+![Software Architecture System Landscape Diagram](../assets/chapter-04/c4/system-landscape/system-landscape.png)
 
 **Elementos principales del landscape:**
 
@@ -92,7 +92,7 @@ El **Software Architecture Context Level Diagram** representa la vista `systemCo
 
 Este nivel muestra el límite del sistema sin introducir aplicaciones internas, bases de datos, APIs o componentes. El detalle de dichas responsabilidades se desarrollará posteriormente en el Container Diagram y en el Tactical-Level Software Design.
 
-![Software Architecture Context Level Diagram](../assets/chapter-04/c4/context/context-diagram.svg)
+![Software Architecture Context Level Diagram](../assets/chapter-04/c4/context/context-diagram.png)
 
 Desde la perspectiva del paciente o visitante, la plataforma permite seleccionar un destino y recibir indicaciones durante el recorrido. Desde la perspectiva del personal operativo, permite mantener información del venue y revisar datos asociados al uso de la navegación. La solución puede relacionarse con sistemas de información de la clínica para obtener datos relevantes y necesita una capacidad de posicionamiento o referencia espacial para determinar la ubicación del usuario dentro del establecimiento.
 

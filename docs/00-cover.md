@@ -31,7 +31,7 @@
 ### INTEGRANTES
 
 Castro Alejos, Julio Daniel (u202021885)  
-Guerra Pérez, José Jahaziel ([código])  
+Guerra Pérez, José Jahaziel (u202319831)  
 Guzman, Yaku Mateo ([código])  
 Navarro Chinga, Antonio (u202314101)  
 Shapiama Rivera, Gabriela Nicole (u202319448)
@@ -47,18 +47,18 @@ Shapiama Rivera, Gabriela Nicole (u202319448)
 # Registro de Versiones del Informe
 
 <!--
-Esta sección resume las modificaciones relevantes realizadas al informe durante
-el ciclo de vida del proyecto. Debe mantenerse coherente con los commits y con
-Project Report Collaboration Insights.
+Esta sección consolida las modificaciones relevantes realizadas por el equipo durante
+el ciclo de vida del Project Report. El registro se reconstruye a partir de los commits
+funcionales del repositorio; los merge commits se omiten cuando solo duplican un cambio
+ya registrado. Debe mantenerse coherente con Project Report Collaboration Insights.
 -->
 
 | Versión | Fecha | Autor(a) | Descripción de Modificación |
 |---|---|---|---|
-| TB1 |  |  |  |
-| TB1 |  |  |  |
-| TB1 |  |  |  |
-| TB1 |  |  |  |
-| TB1 |  |  |  |
+| TB1 | 02/09/2026 | Shapiama Rivera, Gabriela Nicole | Creación de la estructura inicial del Project Report conforme a las secciones establecidas para el Trabajo Final. |
+| TB1 | 03/09/2026 | Shapiama Rivera, Gabriela Nicole | Incorporación de la información de navegación y estructura principal del repositorio mediante el README. |
+
+> **Criterio de actualización:** registrar cada commit funcional que modifique de manera relevante el informe. No registrar merge commits cuando repitan el mismo cambio funcional.
 
 # Project Report Collaboration Insights
 
@@ -68,7 +68,7 @@ Para cada entrega, explicar cómo se elaboró el informe e incluir evidencias de
 analíticos de colaboración y commits. Todos los integrantes deben participar.
 -->
 
-**Project Report repository:** [URL del repositorio]
+**Project Report repository:** https://github.com/arquitecturas-software-emergentes-9061/report
 
 ## TB1
 

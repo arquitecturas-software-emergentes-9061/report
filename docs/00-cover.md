@@ -57,8 +57,15 @@ ya registrado. Debe mantenerse coherente con Project Report Collaboration Insigh
 |---|---|---|---|
 | TB1 | 02/09/2026 | Shapiama Rivera, Gabriela Nicole | Creación de la estructura inicial del Project Report conforme a las secciones establecidas para el Trabajo Final. |
 | TB1 | 03/09/2026 | Shapiama Rivera, Gabriela Nicole | Incorporación de la información de navegación y estructura principal del repositorio mediante el README. |
+| TB1 | 06/09/2026 | Guerra Pérez, José Jahaziel | Consolidación inicial del Registro de Versiones a partir del historial real de Git y actualización de datos generales del informe. |
+| TB1 | 06/09/2026 | Guerra Pérez, José Jahaziel | Desarrollo del análisis competitivo del Capítulo II, incluyendo Competitive Analysis Landscape y estrategias frente a competidores. |
+| TB1 | 06/09/2026 | Guerra Pérez, José Jahaziel | Incorporación de referencias oficiales de MazeMap, Pointr, Mappedin y ARway utilizadas en el análisis competitivo. |
+| TB1 | 06/09/2026 | Guerra Pérez, José Jahaziel | Creación del Software Architecture System Landscape Diagram para el ecosistema de navegación AR indoor en clínicas. |
+| TB1 | 06/09/2026 | Guerra Pérez, José Jahaziel | Creación del C4 Context Diagram con actores, sistema principal y dependencias externas de alto nivel. |
+| TB1 | 06/09/2026 | Guerra Pérez, José Jahaziel | Desarrollo de la sección Software Architecture y documentación explicativa de las vistas System Landscape y Context Level. |
+| TB1 | 06/09/2026 | Guerra Pérez, José Jahaziel | Incorporación de la referencia oficial del C4 Model en la bibliografía del Project Report. |
 
-> **Criterio de actualización:** registrar cada commit funcional que modifique de manera relevante el informe. No registrar merge commits cuando repitan el mismo cambio funcional.
+> **Criterio de actualización:** registrar cada commit funcional que modifique de manera relevante el informe. No registrar merge commits cuando repitan el mismo cambio funcional. Los commits cuyo único objetivo sea sincronizar esta tabla se consideran mantenimiento administrativo para evitar una referencia recursiva del propio registro.
 
 # Project Report Collaboration Insights
 

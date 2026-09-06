@@ -1,72 +1,61 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
-  <defs>
-    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
-      <path d="M0,0 L0,6 L9,3 z" fill="#334155"/>
-    </marker>
-    <style>
-      .title { font: 700 34px Arial, sans-serif; fill: #0f172a; }
-      .subtitle { font: 400 18px Arial, sans-serif; fill: #475569; }
-      .boxTitle { font: 700 22px Arial, sans-serif; fill: #0f172a; }
-      .boxText { font: 400 16px Arial, sans-serif; fill: #334155; }
-      .person { fill: #f8fafc; stroke: #475569; stroke-width: 2; rx: 18; }
-      .system { fill: #dbeafe; stroke: #2563eb; stroke-width: 3; rx: 18; }
-      .external { fill: #f1f5f9; stroke: #64748b; stroke-width: 2; rx: 18; }
-      .relation { stroke: #334155; stroke-width: 2.4; fill: none; marker-end: url(#arrow); }
-      .dashed { stroke-dasharray: 10 8; }
-      .label { font: 600 15px Arial, sans-serif; fill: #334155; }
-      .note { font: italic 14px Arial, sans-serif; fill: #64748b; }
-    </style>
-  </defs>
-
-  <rect width="1400" height="900" fill="#ffffff"/>
-  <text x="700" y="55" text-anchor="middle" class="title">C4 Context Diagram</text>
-  <text x="700" y="88" text-anchor="middle" class="subtitle">AR Indoor Navigation Platform</text>
-
-  <rect x="500" y="300" width="400" height="260" class="system"/>
-  <text x="700" y="355" text-anchor="middle" class="boxTitle">AR Indoor Navigation Platform</text>
-  <text x="700" y="397" text-anchor="middle" class="boxText">Provides indoor venue configuration,</text>
-  <text x="700" y="427" text-anchor="middle" class="boxText">route guidance, points of interest and</text>
-  <text x="700" y="457" text-anchor="middle" class="boxText">contextual AR assistance for patients.</text>
-  <text x="700" y="500" text-anchor="middle" class="boxText">Captures navigation events and insights</text>
-  <text x="700" y="530" text-anchor="middle" class="boxText">to support clinic operations.</text>
-
-  <rect x="70" y="160" width="300" height="150" class="person"/>
-  <text x="220" y="203" text-anchor="middle" class="boxTitle">Patient / Visitor</text>
-  <text x="220" y="238" text-anchor="middle" class="boxText">Searches for a destination and</text>
-  <text x="220" y="263" text-anchor="middle" class="boxText">follows indoor / AR guidance.</text>
-
-  <rect x="70" y="590" width="300" height="150" class="person"/>
-  <text x="220" y="633" text-anchor="middle" class="boxTitle">Clinic Operations Staff</text>
-  <text x="220" y="668" text-anchor="middle" class="boxText">Configures the digital venue and</text>
-  <text x="220" y="693" text-anchor="middle" class="boxText">reviews operational insights.</text>
-
-  <rect x="1030" y="160" width="300" height="150" class="external"/>
-  <text x="1180" y="203" text-anchor="middle" class="boxTitle">Clinic Information Systems</text>
-  <text x="1180" y="238" text-anchor="middle" class="boxText">Potential source of appointment,</text>
-  <text x="1180" y="263" text-anchor="middle" class="boxText">service and destination data.</text>
-
-  <rect x="1030" y="590" width="300" height="150" class="external"/>
-  <text x="1180" y="633" text-anchor="middle" class="boxTitle">Spatial / Positioning Capability</text>
-  <text x="1180" y="668" text-anchor="middle" class="boxText">Provides device/space reference needed</text>
-  <text x="1180" y="693" text-anchor="middle" class="boxText">to calculate or render indoor guidance.</text>
-
-  <path d="M370 235 C450 245, 465 325, 500 365" class="relation"/>
-  <text x="438" y="278" text-anchor="middle" class="label">selects destination / navigates</text>
-
-  <path d="M500 430 C455 430, 430 345, 370 285" class="relation"/>
-  <text x="430" y="383" text-anchor="middle" class="label">returns route and AR guidance</text>
-
-  <path d="M370 665 C450 650, 465 555, 500 515" class="relation"/>
-  <text x="442" y="610" text-anchor="middle" class="label">maintains venue data</text>
-
-  <path d="M500 485 C455 535, 430 615, 370 635" class="relation"/>
-  <text x="440" y="552" text-anchor="middle" class="label">provides insights</text>
-
-  <path d="M900 365 C955 330, 980 265, 1030 245" class="relation dashed"/>
-  <text x="969" y="307" text-anchor="middle" class="label">optional data integration</text>
-
-  <path d="M1030 665 C975 640, 955 535, 900 500" class="relation"/>
-  <text x="974" y="584" text-anchor="middle" class="label">spatial reference</text>
-
-  <text x="700" y="820" text-anchor="middle" class="note">The context remains technology-agnostic until the team finalizes indoor positioning and integration decisions.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L0,6 L9,3 z" fill="#707070"/>
+  </marker>
+</defs>
+<rect width="1600" height="1000" fill="#ffffff"/>
+<text x="60" y="55" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#222222">Software Architecture Context Level Diagram</text>
+<text x="60" y="86" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#666666">System Context view — AR Indoor Navigation Platform</text>
+<rect x="610" y="350" width="380" height="250" rx="8" fill="#1168BD" stroke="#1168BD" stroke-width="3"/>
+<text x="800.0" y="432.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#ffffff">AR Indoor Navigation</text>
+<text x="800.0" y="456.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#ffffff">Platform</text>
+<text x="800.0" y="483.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#e2e8f0">[Software System]</text>
+<text x="800.0" y="511.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#ffffff">Guides patients through the clinic using</text>
+<text x="800.0" y="529.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#ffffff">indoor navigation and contextual AR</text>
+<text x="800.0" y="547.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#ffffff">assistance.</text>
+<circle cx="240.0" cy="215" r="34" fill="#08427B" stroke="#08427B" stroke-width="3"/>
+<rect x="128.0" y="255" width="224.0" height="78" rx="26" fill="#08427B" stroke="#08427B" stroke-width="3"/>
+<text x="240.0" y="285" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#ffffff">Patient / Visitor</text>
+<text x="240.0" y="308" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#e2e8f0">[Person]</text>
+<text x="240.0" y="344" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#334155">Uses the platform to select a</text>
+<text x="240.0" y="362" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#334155">destination and follow indoor</text>
+<text x="240.0" y="380" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#334155">guidance.</text>
+<circle cx="240.0" cy="645" r="34" fill="#08427B" stroke="#08427B" stroke-width="3"/>
+<rect x="128.0" y="685" width="224.0" height="78" rx="26" fill="#08427B" stroke="#08427B" stroke-width="3"/>
+<text x="240.0" y="715" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#ffffff">Clinic Operations Staff</text>
+<text x="240.0" y="738" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#e2e8f0">[Person]</text>
+<text x="240.0" y="792" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#334155">Configures venue information and</text>
+<text x="240.0" y="810" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#334155">reviews navigation insights.</text>
+<rect x="1200" y="180" width="300" height="200" rx="8" fill="#999999" stroke="#999999" stroke-width="3"/>
+<text x="1350.0" y="249.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#ffffff">Clinic Information Systems</text>
+<text x="1350.0" y="276.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#e2e8f0">[Software System]</text>
+<text x="1350.0" y="304.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#ffffff">Potential source of appointment,</text>
+<text x="1350.0" y="322.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#ffffff">service, directory or destination</text>
+<text x="1350.0" y="340.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#ffffff">information.</text>
+<rect x="1200" y="600" width="300" height="200" rx="8" fill="#999999" stroke="#999999" stroke-width="3"/>
+<text x="1350.0" y="666.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#ffffff">Spatial / Positioning</text>
+<text x="1350.0" y="690.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#ffffff">Capability</text>
+<text x="1350.0" y="717.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#e2e8f0">[Software System]</text>
+<text x="1350.0" y="745.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#ffffff">Provides the spatial reference needed</text>
+<text x="1350.0" y="763.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#ffffff">for indoor navigation.</text>
+<line x1="400" y1="290" x2="610" y2="430" stroke="#707070" stroke-width="2.4" stroke-dasharray="9 7" marker-end="url(#arrow)"/>
+<rect x="385.0" y="332.0" width="240" height="40" fill="#ffffff" opacity="0.92"/>
+<text x="505.0" y="350.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#444444">Selects destination and navigates</text>
+<line x1="610" y1="505" x2="400" y2="680" stroke="#707070" stroke-width="2.4" stroke-dasharray="9 7" marker-end="url(#arrow)"/>
+<rect x="385.0" y="556.5" width="240" height="56" fill="#ffffff" opacity="0.92"/>
+<text x="505.0" y="574.5" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#444444">Provides route guidance and navigation</text>
+<text x="505.0" y="590.5" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#444444">feedback</text>
+<line x1="400" y1="700" x2="610" y2="525" stroke="#707070" stroke-width="2.4" stroke-dasharray="9 7" marker-end="url(#arrow)"/>
+<rect x="385.0" y="576.5" width="240" height="56" fill="#ffffff" opacity="0.92"/>
+<text x="505.0" y="594.5" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#444444">Maintains venue data and reviews</text>
+<text x="505.0" y="610.5" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#444444">insights</text>
+<line x1="990" y1="430" x2="1200" y2="280" stroke="#707070" stroke-width="2.4" stroke-dasharray="9 7" marker-end="url(#arrow)"/>
+<rect x="975.0" y="319.0" width="240" height="56" fill="#ffffff" opacity="0.92"/>
+<text x="1095.0" y="337.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#444444">Optionally exchanges clinic</text>
+<text x="1095.0" y="353.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#444444">information</text>
+<line x1="990" y1="520" x2="1200" y2="700" stroke="#707070" stroke-width="2.4" stroke-dasharray="9 7" marker-end="url(#arrow)"/>
+<rect x="975.0" y="582.0" width="240" height="40" fill="#ffffff" opacity="0.92"/>
+<text x="1095.0" y="600.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#444444">Uses spatial reference</text>
+<text x="60" y="950" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#777777">System Context view: only people and software systems directly related to the system of interest are shown.</text>
 </svg>

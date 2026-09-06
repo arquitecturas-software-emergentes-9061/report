@@ -4,6 +4,8 @@ ARway. (s. f.). *ARway: Indoor mapping, navigation & AR experiences*. https://ww
 
 ARway. (s. f.). *Pricing*. https://www.arway.ai/pricing/
 
+Brown, S. (s. f.). *The C4 model for visualising software architecture*. C4 Model. https://c4model.com/
+
 Mappedin. (s. f.). *Hospital wayfinding software for patient & visitor experience*. https://www.mappedin.com/industries/hospitals-healthcare/
 
 Mappedin. (s. f.). *Indoor mapping pricing*. https://www.mappedin.com/pricing/

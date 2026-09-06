@@ -42,11 +42,79 @@ A partir del Competitive Analysis Landscape se plantean las siguientes estrategi
 
 ## 2.2. Entrevistas
 
-*Qué debe ir: Documentar la investigación realizada mediante entrevistas a representantes de cada segmento objetivo.*
+Para comprender el problema desde las dos perspectivas que intervienen en la experiencia de orientación dentro de una clínica, se realizarán entrevistas semiestructuradas a representantes de ambos segmentos objetivo. El primer segmento está conformado por **pacientes o visitantes que acuden a clínicas u hospitales**, mientras que el segundo corresponde al **personal administrativo u operativo de clínicas que interactúa con pacientes y participa en procesos de orientación, atención o gestión del espacio**.
+
+Las entrevistas buscan identificar comportamientos actuales, objetivos, frustraciones, recursos utilizados, frecuencia de los problemas de orientación, impacto operativo y apertura frente a herramientas digitales de asistencia indoor. Las preguntas se han formulado de manera abierta para evitar inducir respuestas o presentar la solución antes de comprender el problema. Posteriormente, los hallazgos servirán como insumo para User Personas, User Task Matrix, Empathy Mapping, As-Is Scenario Mapping y la especificación de requisitos.
 
 ### 2.2.1. Diseño de entrevistas
 
-*Qué debe ir: Incluir preguntas principales y complementarias para cada segmento, aplicando buenas prácticas de entrevista. Recoger información útil para los arquetipos: datos demográficos, personalidad, habilidades, marcas e influencias, dispositivos, canales digitales, objetivos, frustraciones y background, entre otros aspectos indicados en el enunciado.*
+#### Segmento 1 — Pacientes y visitantes de clínicas u hospitales
+
+**Objetivo de la entrevista:** comprender cómo las personas se orientan actualmente dentro de establecimientos de salud, qué dificultades encuentran durante su recorrido y qué impacto tienen estas dificultades en su experiencia de atención.
+
+**Preguntas principales**
+
+1. Cuéntame sobre la última vez que acudiste a una clínica u hospital. ¿A qué fuiste y cómo fue tu recorrido desde que ingresaste hasta que llegaste al lugar que necesitabas?
+2. Cuando llegas a un establecimiento que no conoces bien, ¿cómo haces normalmente para ubicar admisión, consultorios, laboratorios, farmacia u otros servicios?
+3. ¿En qué momentos del recorrido te ha resultado más difícil saber hacia dónde ir o qué hacer después?
+4. ¿Alguna vez te has perdido, has llegado tarde o has tenido que retroceder porque no encontrabas un ambiente? Cuéntame qué ocurrió.
+5. ¿Qué recursos utilizaste para orientarte en esa situación: señalética, personal de la clínica, mapas, mensajes, aplicaciones u otros?
+6. ¿Qué tan fácil o difícil te resulta interpretar la señalización dentro de clínicas u hospitales? ¿Por qué?
+7. Cuando tienes una cita o procedimiento, ¿qué información recibes antes de llegar y qué información te gustaría tener para moverte con mayor seguridad dentro del establecimiento?
+8. ¿Qué parte de la experiencia de orientación te genera mayor frustración, estrés o pérdida de tiempo?
+9. ¿Sueles utilizar tu celular durante una visita a una clínica? ¿Para qué actividades lo utilizas normalmente?
+10. Si una herramienta digital pudiera ayudarte durante el recorrido dentro de una clínica, ¿en qué momentos consideras que tendría más valor para ti?
+11. ¿Hay alguna condición que haría que no utilizaras una herramienta de orientación desde tu celular? Por ejemplo, batería, datos móviles, privacidad, dificultad de uso o preferencia por preguntar a una persona.
+12. Si pudieras cambiar una sola cosa de la forma en que las clínicas orientan actualmente a sus pacientes y visitantes, ¿qué cambiarías?
+
+**Preguntas complementarias / de profundización**
+
+- ¿Con qué frecuencia acudes a clínicas u hospitales?
+- ¿Normalmente visitas el mismo establecimiento o diferentes sedes?
+- ¿Sueles acudir solo o acompañado?
+- ¿Tuviste que preguntar a más de una persona para encontrar el destino?
+- ¿Cuánto tiempo consideras que perdiste buscando el lugar?
+- ¿Qué hiciste después de llegar al primer punto, por ejemplo admisión o recepción?
+- ¿Te resultó claro cuál era el siguiente paso del proceso?
+- ¿Qué tipo de indicación te resulta más fácil de seguir: texto, flechas, mapa, referencias visuales, instrucciones por voz u otra?
+- ¿Has utilizado alguna vez mapas o navegación indoor en centros comerciales, aeropuertos u otros espacios? ¿Cómo fue la experiencia?
+- ¿Qué dispositivos y aplicaciones utilizas con mayor frecuencia en tu día a día?
+- ¿Qué canales digitales prefieres para recibir información de una cita: aplicación, correo, WhatsApp, SMS u otro?
+
+#### Segmento 2 — Personal administrativo u operativo de clínicas
+
+**Objetivo de la entrevista:** comprender cómo la desorientación de pacientes y visitantes afecta la operación del establecimiento, cómo se gestiona actualmente la información de espacios y qué necesidades existirían para implementar una solución digital de orientación indoor.
+
+**Preguntas principales**
+
+1. ¿Cuál es tu rol dentro de la clínica y qué tipo de interacción tienes normalmente con pacientes o visitantes?
+2. Cuéntame cómo se orienta actualmente a una persona que necesita llegar a un consultorio, laboratorio, admisión, farmacia u otro servicio.
+3. ¿Con qué frecuencia los pacientes o visitantes solicitan indicaciones porque no encuentran un ambiente o no saben cuál es el siguiente paso?
+4. ¿Cuáles son los puntos, pisos, servicios o momentos del proceso donde observas más confusión?
+5. Cuando una persona se pierde o llega tarde por problemas de orientación, ¿qué consecuencias genera para la atención o para el trabajo del personal?
+6. ¿Qué recursos utiliza actualmente la clínica para reducir estos problemas: señalética, mapas, módulos de información, personal de apoyo, mensajes previos u otros?
+7. ¿Qué dificultades existen para mantener actualizada la información sobre ambientes, rutas, cambios temporales o puntos de atención?
+8. ¿Quién suele ser responsable de actualizar o comunicar este tipo de información dentro de la organización?
+9. ¿La clínica cuenta con sistemas digitales que manejen información útil para orientar al paciente, como citas, sedes, consultorios, directorios o servicios? ¿Cómo se utilizan actualmente?
+10. ¿Qué información consideras que debería conocer una herramienta de orientación para que realmente sea útil dentro de una clínica?
+11. ¿Qué métricas o resultados permitirían saber si una solución de orientación está generando valor? Por ejemplo, menos consultas al personal, menos tardanzas o menor tiempo para encontrar un destino.
+12. ¿Qué preocupaciones tendrías al implementar una solución de este tipo dentro del establecimiento?
+13. ¿Qué tan importante sería poder modificar rutas, puntos de interés o información del establecimiento sin depender constantemente de un proveedor técnico?
+14. Si pudieras resolver un solo problema relacionado con la orientación y el recorrido de pacientes dentro de la clínica, ¿cuál priorizarías y por qué?
+
+**Preguntas complementarias / de profundización**
+
+- ¿Cuántas personas aproximadamente solicitan indicaciones durante un turno o día habitual?
+- ¿Existen horarios, especialidades o campañas donde este problema aumente?
+- ¿Qué áreas reciben con mayor frecuencia consultas de orientación?
+- ¿Los cambios de consultorio o cierres temporales generan problemas adicionales?
+- ¿Hay pacientes para quienes la orientación sea especialmente difícil, por ejemplo adultos mayores, personas con discapacidad o visitantes nuevos?
+- ¿Qué canales usa la clínica actualmente para comunicarse con el paciente antes de su cita?
+- ¿Qué información del establecimiento cambia con mayor frecuencia?
+- ¿Sería necesario diferenciar rutas según accesibilidad, ascensores, restricciones o tipo de paciente?
+- ¿Qué integraciones con sistemas actuales serían útiles y cuáles serían difíciles de implementar?
+- ¿Qué requisitos de seguridad, privacidad o control de acceso serían importantes desde la perspectiva de la organización?
+- ¿Quién debería administrar la plataforma y quién debería tener únicamente permisos de consulta?
 
 ### 2.2.2. Registro de entrevistas
 

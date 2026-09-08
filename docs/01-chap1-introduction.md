@@ -28,6 +28,15 @@
       Dentro del equipo, aporto principalmente en el análisis y diseño de arquitectura, definición de componentes y servicios, evaluación de alternativas tecnológicas, integración técnica y desarrollo de soluciones orientadas a resolver necesidades reales de los usuarios. Mi objetivo profesional es continuar desarrollándome como Full Stack Developer con una visión integral de arquitectura, cloud computing, automatización e inteligencia artificial aplicada al software.
     </td>
   </tr>
+  <tr>
+    <td>Gabriela Nicole Shapiama Rivera (u202319448)</td>
+    <td> <img src="https://i.ibb.co/Y7svVgXm/gaby.jpg" alt="Imagen Gabriela Shapiama" style="width: 750px; margin-right: 20px; border-radius: 10%;"> </td>
+    <td>
+      Soy estudiante de octavo ciclo de Ingeniería de Software, con un fuerte interés por la lógica, el razonamiento y el desarrollo de soluciones tecnológicas con impacto real.<br>
+  Me motiva desarrollar soluciones eficientes, escalables y bien estructuradas, por lo que he adquirido conocimientos en desarrollo full-stack para aplicaciones web y móviles. Cuento con experiencia en visión por computadora aplicada al reconocimiento de señas, así como en herramientas de procesamiento y análisis de datos como Databricks. Manejo herramientas de control de versiones como Git y plataformas colaborativas como GitHub, aplicando buenas prácticas como Gitflow y Conventional Commits. También, tengo conocimientos en Azure, GCP y Docker, lo que complementa mi interés por prácticas relacionadas con DevOps y despliegue de aplicaciones.<br>
+  Del mismo modo, vengo fortaleciendo mis conocimientos en diseño y arquitectura de proyectos de software, junto con habilidades de liderazgo asertivo. Estoy comprometida con seguir aprendiendo y aportar valor a cada equipo en el que participo.
+    </td>
+  </tr>
 </table>
 
 ## 1.2. Solution Profile

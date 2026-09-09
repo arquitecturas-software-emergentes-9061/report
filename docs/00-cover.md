@@ -61,17 +61,54 @@ realizados por todos los integrantes del equipo.
 
 # Project Report Collaboration Insights
 
-<!--
-Indicar aquí la URL del repositorio público de GitHub del Project Report.
-Para cada entrega, explicar cómo se elaboró el informe e incluir evidencias de
-analíticos de colaboración y commits. Todos los integrantes deben participar.
--->
+Para el desarrollo del **Project Report**, el equipo utiliza un repositorio dentro de la organización en GitHub. A continuación, se presenta la evidencia de colaboración correspondiente y en coherencia con el registro de versiones del informe.
 
-**Project Report repository:** https://github.com/arquitecturas-software-emergentes-9061/report
+**Repositorio del informe del proyecto:** [https://shorturl.at/1LfUA](https://shorturl.at/1LfUA)
 
-## TB1
+**Total de commits:** XXX
 
-<!-- Completar con descripción y evidencias de colaboración de TB1. -->
+**Autores contribuyentes:**
+
+| Integrante                        | Usuario de GitHub      |
+| ---------------------------------- | ----------------------- |
+| Julio Castro Alejos                | `JulioXC4`               |
+| José Jahaziel Guerra Pérez         | `jahazielgg`             |
+| Yaku Mateo Guzmán Cabrejos         | `yakumateo`              |
+| Antonio Jhair Navarro Chinga       | `AntonioNavarro24`      |
+| Gabriela Nicole Shapiama Rivera    | `GabrielaShapiama28`    |
+
+El equipo adoptó una estrategia de ramas basada en **feature branches** (`feature/<sección>`), donde cada integrante trabajó de forma aislada sobre la sección asignada y luego integró sus cambios a `main` mediante *pull requests* con revisión cruzada. Los mensajes de commit siguen la convención **Conventional Commits**, usando prefijos como `feat:`, `fix:` y `chore:` para mantener un historial claro y trazable en el proyecto.
+
+---
+
+## TB1 – Primer Hito – Semana 4
+
+Durante esta fase, el equipo elaboró la **primera entrega del informe del proyecto**, abarcando los siguientes entregables:
+
+- **Informe del proyecto** con carátula, registro de versiones y Project Report Collaboration Insights.
+- **Contenido y Student Outcome**, definiendo el alcance inicial del reporte.
+- **Capítulo I: Introducción**, presentando el contexto y planteamiento del problema.
+- **Capítulo II: Requirements Elicitation & Analysis**, con el proceso de elicitación y análisis de requisitos.
+- **Capítulo III: Requirements Specification**, detallando la especificación formal de los requisitos.
+- **Capítulo IV: Strategic-Level Software Design**, cubriendo el diseño de la solución a nivel estratégico.
+- **Avance de Conclusiones, Bibliografía y Anexos**.
+- **Final Project Keynote** y **Individual Member Performance Report** (elaborado por el Team Leader).
+
+Cada sección fue desarrollada en su propia rama `feature/<sección>` (por ejemplo, `feature/chapter-01`, `feature/chapter-02`) y los commits siguieron la convención establecida, como se muestra a continuación:
+
+```text
+feat(chapter-01): add startup profile and problem statement
+feat(chapter-03): add requirements specification draft
+chore(annexes): add supplementary files and bibliography
+fix(chapter-02): correct elicitation process description
+```
+
+**Analíticos de colaboración – GitHub Insights:**
+
+![Contributors TB1](../assets/images/project-insights/contributors-tb1.png)
+*Figura: Contribuciones por integrante durante el TB1*
+
+<div style="page-break-after: always;"></div>
 
 ## TP1
 

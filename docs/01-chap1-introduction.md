@@ -18,6 +18,15 @@
     <th>Foto</th>
     <th>Descripcion</th>
   </tr>
+    <tr>
+    <td>Julio Castro Alejos (u202021885)</td>
+    <td> <img src="https://i.ibb.co/1YjQcCwg/julio.jpg" alt="Imagen Julio Castro" style="width: 750px; margin-right: 20px; border-radius: 10%;"> </td>
+    <td>
+      Soy estudiante de Ingeniería de Software, actualmente cursando el octavo ciclo de la carrera. Para mí, el software siempre ha sido más una herramienta que un fin en sí mismo: lo que realmente me motiva es usarlo para resolver problemas reales y construir soluciones accesibles que le sirvan a las personas, sin complicaciones innecesarias. <br><br>
+      Esta forma de pensar la he ido reforzando en distintos proyectos académicos, individuales y grupales, donde antes de escribir código me detengo a entender bien el problema y a plantear un diseño de solución claro, apoyándome en buenas prácticas de desarrollo y control de versiones con Git. También he sumado experiencia práctica en desarrollo web full stack fuera del aula, lo que me ha ayudado a no perder de vista que detrás de cada funcionalidad hay alguien que la va a usar. <br><br>
+      Además de lo técnico, vengo fortaleciendo mis habilidades blandas comunicación, organización y trabajo en equipo porque sé que un buen proyecto de software depende tanto de eso como del código mismo. Dentro de mi equipo suelo aportar justamente esa mirada práctica, cuestionando si una solución es realmente simple y útil para quien la va a usar, y mi meta es seguir creciendo como desarrollador con esa misma idea de fondo: hacer software accesible para todos.
+    </td>
+  </tr>
   <tr>
     <td>José Jahaziel Guerra Perez (u202319831)</td>
     <td> <img src="https://i.ibb.co/LssNdfh/IMG-8966.jpg" alt="Imagen Jahaziel Guerra" style="width: 750px; margin-right: 20px; border-radius: 10%;"> </td>

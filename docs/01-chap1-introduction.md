@@ -38,6 +38,13 @@
     </td>
   </tr>
   <tr>
+    <td>Antonio Navarro Chinga (u202314101)</td>
+    <td> <img src="https://i.ibb.co/gnxh3x8/Antonio.jpg" alt="Imagen Antonio Navarro" style="width: 750px; margin-right: 20px; border-radius: 10%;"> </td>
+    <td>
+      Soy estudiante de Ingeniería de Software, actualmente cursando el octavo ciclo de la carrera. Me motiva el desarrollo de soluciones ordenadas, confiables y bien estructuradas, con un interés particular en la lógica interna que hace funcionar a un sistema. Considero que la base de un buen producto de software radica en un diseño sólido: datos bien organizados, reglas claras y una comunicación eficiente entre componentes. <br> A lo largo de mi formación académica y en distintos proyectos prácticos, he enfocado mi aprendizaje principalmente en el desarrollo backend, la modelación de bases de datos y la elaboración de APIs, apoyándome en entornos como Spring Boot y .NET. Al mismo tiempo, procuro mantener una perspectiva integral que abarca también el frontend y aplicaciones móviles, lo que me permite entender el ciclo completo de una aplicación y asegurar que la lógica del servidor se conecte de manera fluida con la experiencia del usuario. <br> En este proyecto participo de forma activa y transversal, colaborando tanto en el backend como en el frontend para garantizar que la solución funcione de manera coherente de extremo a extremo. Dentro del equipo, busco aportar en la definición de la estructura de datos, el diseño de los puntos de integración y el orden técnico del código. A futuro, mi meta es continuar especializándome como Backend Engineer y Arquitecto de Software, con la aspiración de liderar equipos de desarrollo en proyectos de gran impacto.
+    </td>
+  </tr>
+  <tr>
     <td>Gabriela Nicole Shapiama Rivera (u202319448)</td>
     <td> <img src="https://i.ibb.co/Y7svVgXm/gaby.jpg" alt="Imagen Gabriela Shapiama" style="width: 750px; margin-right: 20px; border-radius: 10%;"> </td>
     <td>

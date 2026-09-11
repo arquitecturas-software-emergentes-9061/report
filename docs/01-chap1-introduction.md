@@ -91,7 +91,15 @@ A continuación, se presenta el proceso Lean UX del proyecto, orientado a identi
 
 #### 1.2.2.1. Lean UX Problem Statements
 
-*Qué debe ir: Redactar Problem Statements considerando, según el enunciado, aspectos como domain, customer segments, pain points, gap, visión/strategy e initial segment.*
+El estado actual de la orientación en clínicas privadas de gran tamaño de Lima Metropolitana se apoya principalmente en señalética fija, directorios y en la intervención directa del personal. Esto genera recorridos innecesarios, impuntualidad, consultas recurrentes al personal y una experiencia de atención más extensa y compleja de lo necesario.
+
+Lo que los productos y servicios existentes no logran resolver completamente es la necesidad de contar con una alternativa dinámica, personalizada y fácil de utilizar que permita orientar a los visitantes dentro del establecimiento, adaptarse a los cambios operativos y reducir la dependencia del personal para resolver dudas de ubicación.
+
+Nuestro producto abordará esta brecha mediante una plataforma que permita a la clínica configurar y mantener el modelo navegable de su sede a partir de sus propios planos, y que guíe a los pacientes durante su recorrido mediante navegación indoor con asistencia contextual en realidad aumentada, vinculando la orientación con los pasos de su proceso de atención.
+
+Nuestro enfoque inicial estará dirigido a pacientes y acompañantes de consulta externa que acuden por primera vez o utilizan un servicio distinto al habitual, así como a los responsables de operaciones y experiencia del paciente de una sede piloto.
+
+Sabremos que hemos tenido éxito cuando los usuarios puedan llegar a sus destinos con mayor autonomía, se reduzcan los recorridos innecesarios y las consultas repetitivas al personal, y la clínica pueda mantener actualizada la información de su sede y utilizar la solución de forma recurrente.
 
 #### 1.2.2.2. Lean UX Assumptions
 

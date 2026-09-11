@@ -256,7 +256,29 @@ Sabremos que hemos tenido éxito cuando los usuarios puedan llegar a sus destino
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
-*Qué debe ir: Formular los Hypothesis Statements del Lean UX Process, de modo que puedan contrastarse posteriormente con los resultados obtenidos durante el proyecto.*
+1. **Reducción del tiempo de orientación dentro de la clínica**
+
+**Creemos que lograremos** alcanzar una puntuación de satisfacción del usuario (CSAT) de al menos 80%, **si** los pacientes y acompañantes **obtienen** una reducción del 30% en el tiempo promedio requerido para localizar consultorios, laboratorios, farmacias, cajas y otros servicios dentro de la clínica **con** las herramientas de búsqueda de destinos, cálculo de rutas indoor y navegación mediante mapa 2D y realidad aumentada.
+
+2. **Disminución de consultas de orientación al personal**
+
+**Creemos que lograremos** reducir en un 30% las consultas de orientación atendidas por el personal de la clínica, **si** los pacientes y acompañantes **obtienen** un incremento del 30% en su autonomía para desplazarse hacia los diferentes puntos de atención **con** el sistema de posicionamiento indoor y las indicaciones de navegación proporcionadas por la aplicación.
+
+3. **Reducción de recorridos innecesarios y desvíos**
+
+**Creemos que lograremos** conseguir que al menos el 80% de las rutas iniciadas mediante la aplicación sean completadas exitosamente, **si** los pacientes y acompañantes **obtienen** una reducción del 25% en los recorridos innecesarios o desvíos durante su desplazamiento dentro de la clínica **con** las herramientas de cálculo de rutas indoor y recalibración de posición durante el recorrido.
+
+4. **Mejora de la precisión durante la navegación indoor**
+
+**Creemos que lograremos** reducir en un 25% los recálculos de ruta ocasionados por errores de posicionamiento, **si** los pacientes y acompañantes **obtienen** una mejora del 30% en la estabilidad de su ubicación estimada durante el recorrido **con** las funcionalidades de posicionamiento indoor y recalibración continua de la posición.
+
+5. **Eficiencia en la gestión de la información espacial de la clínica**
+
+**Creemos que lograremos** incrementar en un 35% la eficiencia en la gestión y actualización de la información espacial de la sede, **si** los administradores y responsables de operaciones **obtienen** una reducción del 30% en el tiempo requerido para actualizar destinos, pisos, rutas y puntos de referencia **con** las herramientas de gestión de planos indoor, configuración de espacios y gestión de destinos.
+
+6. **Mejora en la claridad de las indicaciones de navegación**
+
+**Creemos que lograremos** que al menos el 75% de los usuarios califique las indicaciones de navegación como claras y fáciles de seguir, **si** los pacientes y acompañantes **obtienen** una reducción del 25% en las dudas o correcciones realizadas durante el recorrido **con** las indicaciones visuales mediante mapa 2D, realidad aumentada y notificación de llegada al destino.
 
 #### 1.2.2.4. Lean UX Canvas
 

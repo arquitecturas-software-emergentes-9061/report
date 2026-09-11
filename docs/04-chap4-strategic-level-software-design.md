@@ -64,39 +64,43 @@
 
 La arquitectura de la solución se documenta mediante **C4 Model utilizando Structurizr**, siguiendo la semántica oficial del DSL y las vistas disponibles en **Structurizr Playground**. El modelo arquitectónico se define como una fuente única y consistente, mientras que en el Project Report se incluyen únicamente las imágenes exportadas de las vistas correspondientes; el código DSL no forma parte del informe.
 
-De acuerdo con la documentación oficial de Structurizr, la vista **System Landscape** permite mostrar personas y software systems dentro del ecosistema general, mientras que la vista **System Context** se centra en un software system concreto y muestra las personas y sistemas directamente relacionados con él. Ambas vistas se han planteado con claves estables y relaciones explícitas, manteniendo el modelo independiente de decisiones tecnológicas que todavía no han sido cerradas.
+De acuerdo con la documentación oficial de Structurizr, la vista **System Landscape** presenta el panorama general del ecosistema mediante personas, software systems y relaciones relevantes, incluso cuando no todos los elementos se conectan directamente con el sistema de interés. En cambio, la vista **System Context** se centra en un software system concreto y muestra únicamente a las personas y sistemas externos que mantienen una relación directa con él.
 
-Las vistas describen el alcance conceptual actual del producto: una plataforma B2B para clínicas y establecimientos de salud que permite configurar un espacio indoor y asistir a pacientes o visitantes durante su recorrido mediante navegación contextual y realidad aumentada. En esta etapa se evita fijar prematuramente un proveedor o tecnología específica de posicionamiento indoor; esa decisión deberá desprenderse posteriormente de los architectural drivers, restricciones y quality attributes.
+El producto se denomina **Rumbo**, una plataforma B2B para clínicas y establecimientos de salud que permite configurar un espacio indoor y asistir a pacientes o visitantes durante su recorrido mediante navegación contextual y realidad aumentada. En esta etapa se evita fijar prematuramente un proveedor o tecnología específica de posicionamiento indoor; esa decisión deberá desprenderse posteriormente de los architectural drivers, restricciones y quality attributes.
 
 ### 4.3.1. Software Architecture System Landscape Diagram
 
-El **Software Architecture System Landscape Diagram** muestra el ecosistema de alto nivel asociado a la propuesta. El sistema de interés es la **AR Indoor Navigation Platform**, utilizada por pacientes o visitantes y administrada por personal operativo de la clínica. El landscape incorpora además los sistemas externos relevantes para comprender el contexto global sin bajar todavía al detalle de containers o componentes.
+El **Software Architecture System Landscape Diagram** muestra el ecosistema general en el que opera **Rumbo**. A diferencia del Context Diagram, esta vista no se limita a los elementos conectados directamente con el producto: incorpora actores y sistemas del entorno de la clínica para explicar cómo se desarrolla actualmente la orientación y qué dependencias forman parte del panorama operativo.
 
-La vista fue modelada siguiendo la definición `systemLandscape` de Structurizr, donde se incluyen las personas y software systems relevantes y sus relaciones. La imagen incluida en el informe corresponde a la representación visual del modelo y no expone el código DSL utilizado para construirla.
+La vista incluye al paciente o visitante; al personal operativo de la clínica; al personal de recepción o soporte que frecuentemente brinda indicaciones; a los sistemas de información de la clínica; a **Rumbo** como software system de interés; y a la capacidad externa de posicionamiento o referencia espacial. También se representan relaciones del ecosistema que no pasan necesariamente por Rumbo, como la consulta de información clínica u operativa y la solicitud tradicional de indicaciones al personal.
 
-![Software Architecture System Landscape Diagram](../assets/chapter-04/c4/system-landscape/system-landscape.png)
+![Software Architecture System Landscape Diagram](https://i.ibb.co/219BDGMz/image.png)
 
 **Elementos principales del landscape:**
 
 - **Patient / Visitor:** persona que necesita localizar servicios y navegar dentro de la clínica.
-- **Clinic Operations Staff:** personal administrativo u operativo que mantiene información del establecimiento y participa en la gestión de la orientación del paciente.
-- **AR Indoor Navigation Platform:** software system desarrollado por el equipo para brindar navegación indoor y asistencia contextual mediante AR.
-- **Clinic Information Systems:** software systems externos que pueden proporcionar información de citas, servicios, directorios o destinos cuando se definan integraciones.
-- **Spatial / Positioning Capability:** software system o capacidad externa que proporciona la referencia espacial necesaria para la navegación indoor.
+- **Clinic Operations Staff:** personal administrativo u operativo que mantiene información del establecimiento y participa en la gestión de la experiencia de orientación.
+- **Clinic Front Desk / Support Staff:** personal que asiste directamente a pacientes y visitantes cuando requieren indicaciones o apoyo durante su recorrido.
+- **Clinic Information Systems:** sistemas externos que gestionan citas, servicios, directorios, destinos u otra información operativa relevante para la visita.
+- **Rumbo:** software system desarrollado por el equipo para brindar navegación indoor y asistencia contextual mediante realidad aumentada.
+- **Indoor Positioning / Spatial Capability:** capacidad o sistema externo que proporciona la referencia espacial necesaria para determinar la ubicación del usuario dentro del establecimiento.
 
 La tecnología concreta utilizada para posicionamiento se mantiene intencionalmente abstracta. Esto evita convertir una alternativa todavía no evaluada en una decisión arquitectónica definitiva y permite que el diseño evolucione después del análisis de drivers.
 
 ### 4.3.2. Software Architecture Context Level Diagrams
 
-El **Software Architecture Context Level Diagram** representa la vista `systemContext` de Structurizr para la **AR Indoor Navigation Platform**. Según la definición oficial de esta vista, el software system de interés se presenta junto con las personas y software systems que mantienen una relación directa con él.
+El **Software Architecture Context Level Diagram** representa la vista `systemContext` de Structurizr para **Rumbo**. En este nivel, el producto se presenta como el software system central y solo se incluyen personas y software systems que mantienen una relación directa con él.
 
-Este nivel muestra el límite del sistema sin introducir aplicaciones internas, bases de datos, APIs o componentes. El detalle de dichas responsabilidades se desarrollará posteriormente en el Container Diagram y en el Tactical-Level Software Design.
+![Software Architecture Context Level Diagram](https://i.ibb.co/5W43wgmP/image.png)
 
-![Software Architecture Context Level Diagram](../assets/chapter-04/c4/context/context-diagram.png)
+Las relaciones directas consideradas son:
 
-Desde la perspectiva del paciente o visitante, la plataforma permite seleccionar un destino y recibir indicaciones durante el recorrido. Desde la perspectiva del personal operativo, permite mantener información del venue y revisar datos asociados al uso de la navegación. La solución puede relacionarse con sistemas de información de la clínica para obtener datos relevantes y necesita una capacidad de posicionamiento o referencia espacial para determinar la ubicación del usuario dentro del establecimiento.
+- **Patient / Visitor → Rumbo:** utiliza la plataforma para seleccionar destinos y recibir navegación indoor y asistencia contextual.
+- **Clinic Operations Staff → Rumbo:** configura información del espacio y consulta datos relacionados con el uso de la navegación.
+- **Rumbo → Clinic Information Systems:** obtiene información de citas, servicios, directorios o destinos cuando dichas integraciones estén disponibles.
+- **Rumbo → Indoor Positioning / Spatial Capability:** solicita la posición indoor o referencia espacial necesaria para guiar al usuario.
 
-La vista permanece deliberadamente **technology-agnostic** respecto al mecanismo de positioning. El objetivo de este nivel es establecer correctamente actores, sistemas externos, límites y relaciones; las decisiones tecnológicas deben justificarse en los niveles posteriores del proceso arquitectónico.
+El Context Diagram no introduce aplicaciones internas, bases de datos, APIs, motores AR o componentes. Ese detalle corresponde al **Container Level** y a los niveles tácticos posteriores. Asimismo, el mecanismo concreto de posicionamiento continúa siendo technology-agnostic hasta que los architectural drivers permitan justificar una decisión.
 
 ### 4.3.3. Software Architecture Container Level Diagrams
 

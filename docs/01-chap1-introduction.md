@@ -41,7 +41,7 @@
 
 ## 1.2. Solution Profile
 
-*Qué debe ir: La sección se divide en Antecedentes y problemática y Lean UX Process. Debe contextualizar el problema y luego documentar el proceso Lean UX aplicado al dominio.*
+Esta sección presenta el perfil de la solución propuesta y la visión del modelo de negocio digital que será soportado por el producto de software. Se organiza en dos partes complementarias.
 
 ### 1.2.1. Antecedentes y problemática
 

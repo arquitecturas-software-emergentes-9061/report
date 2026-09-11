@@ -43,6 +43,15 @@ Rumbo AR es una plataforma de navegación inteligente en espacios físicos, dise
     <th>Foto</th>
     <th>Descripcion</th>
   </tr>
+    <tr>
+    <td>Julio Castro Alejos (u202021885)</td>
+    <td> <img src="https://i.ibb.co/1YjQcCwg/julio.jpg" alt="Imagen Julio Castro" style="width: 750px; margin-right: 20px; border-radius: 10%;"> </td>
+    <td>
+      Soy estudiante de Ingeniería de Software, actualmente cursando el octavo ciclo de la carrera. Para mí, el software siempre ha sido más una herramienta que un fin en sí mismo: lo que realmente me motiva es usarlo para resolver problemas reales y construir soluciones accesibles que le sirvan a las personas, sin complicaciones innecesarias. <br><br>
+      Esta forma de pensar la he ido reforzando en distintos proyectos académicos, individuales y grupales, donde antes de escribir código me detengo a entender bien el problema y a plantear un diseño de solución claro, apoyándome en buenas prácticas de desarrollo y control de versiones con Git. También he sumado experiencia práctica en desarrollo web full stack fuera del aula, lo que me ha ayudado a no perder de vista que detrás de cada funcionalidad hay alguien que la va a usar. <br><br>
+      Además de lo técnico, vengo fortaleciendo mis habilidades blandas comunicación, organización y trabajo en equipo porque sé que un buen proyecto de software depende tanto de eso como del código mismo. Dentro de mi equipo suelo aportar justamente esa mirada práctica, cuestionando si una solución es realmente simple y útil para quien la va a usar, y mi meta es seguir creciendo como desarrollador con esa misma idea de fondo: hacer software accesible para todos.
+    </td>
+  </tr>
   <tr>
     <td>José Jahaziel Guerra Perez (u202319831)</td>
     <td> <img src="https://i.ibb.co/LssNdfh/IMG-8966.jpg" alt="Imagen Jahaziel Guerra" style="width: 750px; margin-right: 20px; border-radius: 10%;"> </td>
@@ -51,6 +60,13 @@ Rumbo AR es una plataforma de navegación inteligente en espacios físicos, dise
       Mi enfoque profesional está orientado al desarrollo de software y al diseño de soluciones con una visión sistémica, con especial interés en backend, arquitecturas distribuidas, automatización, integración de servicios y construcción de productos escalables y mantenibles. <br>
       Asimismo, me interesa la aplicación de inteligencia artificial y modelos de lenguaje dentro de productos de software, especialmente cuando pueden integrarse con sistemas empresariales, procesos de automatización y flujos orientados a eventos para generar valor de negocio. También cuento con experiencia trabajando con APIs, procesamiento de datos, Git, GitHub y prácticas colaborativas como Git Flow y Conventional Commits. <br>
       Dentro del equipo, aporto principalmente en el análisis y diseño de arquitectura, definición de componentes y servicios, evaluación de alternativas tecnológicas, integración técnica y desarrollo de soluciones orientadas a resolver necesidades reales de los usuarios. Mi objetivo profesional es continuar desarrollándome como Full Stack Developer con una visión integral de arquitectura, cloud computing, automatización e inteligencia artificial aplicada al software.
+    </td>
+  </tr>
+  <tr>
+    <td>Antonio Navarro Chinga (u202314101)</td>
+    <td> <img src="https://i.ibb.co/gnxh3x8/Antonio.jpg" alt="Imagen Antonio Navarro" style="width: 750px; margin-right: 20px; border-radius: 10%;"> </td>
+    <td>
+      Soy estudiante de Ingeniería de Software, actualmente cursando el octavo ciclo de la carrera. Me motiva el desarrollo de soluciones ordenadas, confiables y bien estructuradas, con un interés particular en la lógica interna que hace funcionar a un sistema. Considero que la base de un buen producto de software radica en un diseño sólido: datos bien organizados, reglas claras y una comunicación eficiente entre componentes. <br> A lo largo de mi formación académica y en distintos proyectos prácticos, he enfocado mi aprendizaje principalmente en el desarrollo backend, la modelación de bases de datos y la elaboración de APIs, apoyándome en entornos como Spring Boot y .NET. Al mismo tiempo, procuro mantener una perspectiva integral que abarca también el frontend y aplicaciones móviles, lo que me permite entender el ciclo completo de una aplicación y asegurar que la lógica del servidor se conecte de manera fluida con la experiencia del usuario. <br> En este proyecto participo de forma activa y transversal, colaborando tanto en el backend como en el frontend para garantizar que la solución funcione de manera coherente de extremo a extremo. Dentro del equipo, busco aportar en la definición de la estructura de datos, el diseño de los puntos de integración y el orden técnico del código. A futuro, mi meta es continuar especializándome como Backend Engineer y Arquitecto de Software, con la aspiración de liderar equipos de desarrollo en proyectos de gran impacto.
     </td>
   </tr>
   <tr>

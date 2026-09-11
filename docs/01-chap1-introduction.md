@@ -87,7 +87,7 @@ La evidencia internacional permite dimensionar el costo operativo del problema: 
 
 ### 1.2.2. Lean UX Process
 
-*Qué debe ir: Aplicar Lean UX Process sobre el dominio del problema y la visión del modelo de negocio que será soportado por el producto de software.*
+A continuación, se presenta el proceso Lean UX del proyecto, orientado a identificar el problema, explicitar los supuestos, formular hipótesis verificables y guiar el diseño de la solución a partir de las necesidades de los usuarios. Este proceso permite identificar los principales riesgos y validar las decisiones mediante evidencia obtenida durante las entrevistas y pruebas con los segmentos objetivo.
 
 #### 1.2.2.1. Lean UX Problem Statements
 

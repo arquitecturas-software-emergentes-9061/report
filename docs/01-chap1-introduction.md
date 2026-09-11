@@ -45,7 +45,45 @@ Esta sección presenta el perfil de la solución propuesta y la visión del mode
 
 ### 1.2.1. Antecedentes y problemática
 
-*Qué debe ir: Incluir una aproximación preliminar a los antecedentes y la problemática. Aplicar previamente 5W+2H (Who, What, Where, When, Why, How & How Much). La descripción debe delimitar el problema y el alcance mediante objetivos y restricciones cuando corresponda.*
+En las últimas décadas, la infraestructura de los establecimientos de salud ha crecido de forma acelerada en el Perú. Las clínicas privadas de gran tamaño han dejado de ser un edificio único con pocos ambientes para convertirse en complejos distribuidos en varias torres, sótanos, pisos y bloques anexos, donde conviven consulta externa, laboratorio, imágenes, farmacia, admisión, caja, emergencia y unidades especializadas. Esta expansión responde a una mayor demanda de atención, pero introduce un efecto secundario poco atendido: la complejidad espacial del establecimiento crece más rápido que la capacidad del visitante para comprenderla.
+
+El problema de orientarse dentro de un edificio complejo se conoce en la literatura como wayfinding, y en el sector salud está ampliamente documentado. Un estudio realizado por Ulrich y colegas en un hospital estadounidense de aproximadamente 604 camas estimó que se pierden cerca de 4,500 horas de personal al año únicamente por atender y reorientar a pacientes desorientados, lo que al año 2004 representaba alrededor de US$202,000, equivalente al costo de casi dos jornadas completas de un médico junior durante todo un año (citado en Revista Médica de Chile, 2014). En el mismo trabajo se reporta que, en un hospital chileno, los problemas de señalización se traducen en que una de cada seis personas camina al menos el doble de la distancia que debería haber recorrido para llegar a su destino.
+
+Desde el lado tecnológico, la orientación en interiores presenta una limitación estructural conocida: el GPS no ofrece precisión suficiente dentro de edificios, por lo que las aplicaciones de navegación de uso masivo dejan de ser útiles justamente en el momento en que el paciente cruza la puerta del establecimiento. Los mecanismos que las clínicas emplean hoy, señalética fija, directorios impresos, tótems y personal de orientación, son estáticos, dependen de la interpretación del visitante y no reflejan cambios temporales como el traslado de un consultorio, el cierre de un ascensor o una campaña de salud que reubica un servicio.
+
+What (¿Qué ocurre?)
+
+Los pacientes y acompañantes no logran ubicar de forma autónoma los ambientes y puntos de atención que necesitan dentro del establecimiento, ni identificar con claridad cuál es el siguiente paso de su proceso de atención. El resultado es desorientación, recorridos innecesarios, consultas repetidas al personal y llegadas tarde al punto de atención.
+
+El mecanismo de orientación efectivamente utilizado no es el que la clínica ha dispuesto para ello. Guillen-Calle et al. (2025) reportan que el 88,4% de los usuarios prefiere preguntar al personal, frente a un 11,6% que utiliza señalización o mapas. Es decir, la infraestructura de orientación existe, pero es sustituida en la práctica por la intervención humana.
+
+When (¿Cuándo y con qué frecuencia ocurre?)
+
+El problema aparece desde que la persona ingresa al establecimiento hasta que completa su objetivo de atención, con mayor incidencia en las transiciones del proceso: del ingreso a admisión, de admisión al consultorio, y del consultorio a laboratorio, imágenes, caja o farmacia. No se trata de un evento aislado sino de una condición recurrente en cada visita, que se agrava en horas de mayor afluencia y cuando existen cambios temporales en la ubicación de los servicios.
+
+Where (¿Dónde sucede?)
+
+El problema se manifiesta dentro de las instalaciones de clínicas privadas de gran tamaño de Lima Metropolitana: establecimientos distribuidos en varios pisos, torres o bloques, con múltiples servicios y transiciones verticales mediante ascensores, escaleras y rampas. La escala del entorno es determinante: el establecimiento estudiado por Quijano Muñoz (2024) abarca aproximadamente 23,431.24 m² y su digitalización requirió el registro de 301 puntos de interés, lo que ilustra el volumen de información espacial que un visitante debe procesar sin asistencia.
+
+Who (¿Quiénes se ven afectados?)
+
+Los afectados directos son los pacientes y acompañantes que acuden a clínicas privadas de gran tamaño, en particular quienes visitan la sede por primera vez, quienes acuden a un servicio distinto al que utilizan habitualmente y quienes llegan con restricciones de tiempo por una cita programada. La evidencia local sugiere que la dificultad no se limita a un perfil específico: no encontraron diferencias significativas en la capacidad de orientación según la frecuencia de visitas ni según el nivel educativo, lo que indica que el problema no se resuelve por familiaridad con el establecimiento ni por escolaridad del visitante.
+
+Los afectados indirectos son el personal administrativo y operativo de la clínica, que debe interrumpir sus funciones para dar indicaciones, y los responsables de operaciones y de experiencia del paciente, quienes asumen el costo organizacional del problema sin contar hoy con información que lo haga visible.
+
+Why (¿Por qué es un problema?)
+
+Porque la información espacial del establecimiento es estática y está desacoplada del proceso de atención de la persona. La señalética no se actualiza al ritmo de los cambios operativos, no indica cuál es el siguiente paso del proceso y no puede personalizarse según el destino de cada visitante. A esto se suma la limitación técnica del posicionamiento satelital, que carece de precisión en interiores, razón por la cual las herramientas de navegación convencionales no cubren este escenario.
+
+How (¿Cómo se manifiesta y cómo se enfrenta actualmente?)
+
+El visitante recurre a la señalética y a los directorios impresos, pregunta al personal de recepción, seguridad o admisión, sigue a un acompañante que ya conoce el lugar, o explora el establecimiento por ensayo y error. Todos estos mecanismos dependen de la disponibilidad de un tercero o de la capacidad de interpretación del propio visitante.
+
+Las limitaciones de la alternativa tradicional están documentadas. Quijano Muñoz (2024) señala que los mapas colocados en puntos estratégicos requieren actualizaciones frecuentes ante cambios de infraestructura, no ofrecen información sobre la atención brindada en cada área y representan un costo adicional para la organización
+
+How much (¿Cuál es el impacto cuantitativo?)
+
+La evidencia internacional permite dimensionar el costo operativo del problema: alrededor de 4,500 horas de personal perdidas al año en un hospital de aproximadamente 604 camas por reorientar pacientes, valorizadas en cerca de US$202,000 al año 2004, y una de cada seis personas recorriendo al menos el doble de la distancia necesaria dentro de un hospital.
 
 ### 1.2.2. Lean UX Process
 

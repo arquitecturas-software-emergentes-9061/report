@@ -69,4 +69,30 @@
 
 ## 1.3. Segmentos objetivo
 
-*Qué debe ir: Describir los segmentos asociados al dominio del problema, incluyendo características demográficas e información estadística que sustente su definición.*
+A continuación, se determinan los segmentos objetivos a los que va dirigida la propuesta de solución:
+
+**Segmento Objetivo 1:** Pacientes y acompañantes que requieren orientación para desplazarse y ubicar áreas en clínicas
+
+Según el Instituto Nacional de Estadística e Informática (INEI, 2025), durante el primer trimestre de 2025, el 38,1% de la población que presentó algún problema de salud acudió a un establecimiento en busca de atención, mientras que el 91,1% de la población contaba con algún tipo de seguro de salud. Estas cifras evidencian la concurrencia de personas a establecimientos de salud y la importancia de facilitar su experiencia durante la atención. En este contexto, los pacientes y sus acompañantes pueden requerir desplazarse entre diferentes áreas de una clínica, como admisión, consultorios, laboratorios, farmacia o caja, lo que genera la necesidad de contar con mecanismos que faciliten su orientación y ubicación dentro de las instalaciones.
+
+- **Datos demográficos:**
+  
+  - Edad: Mayores de 18 años.
+  - Ocupación: Personas de distintas ocupaciones que acuden a clínicas como pacientes o acompañantes.
+  - Lugar de residencia: Lima Metropolitana, Perú.
+
+- **Problema:** Los restaurantes presentan dificultades en el control de inventarios debido al uso de métodos manuales, lo que genera pérdidas, desabastecimiento y desorganización en la gestión de insumos.Los pacientes y acompañantes presentan dificultades para orientarse y ubicar determinadas áreas dentro de clínicas, especialmente cuando desconocen la distribución de sus instalaciones. Esto puede generar pérdida de tiempo, desplazamientos innecesarios, consultas frecuentes al personal y retrasos para llegar al área donde deben continuar su atención.
+
+- **Necesidad:** Buscan desplazarse de manera rápida y sencilla dentro de las clínicas, identificando su ubicación y las áreas que necesitan visitar. Para ello, requieren una herramienta digital que les proporcione rutas claras e indicaciones visuales mediante realidad aumentada, facilitando su orientación desde el ingreso hasta completar su proceso de atención.
+
+**Segmento Objetivo 2:** Administradores y responsables de operaciones y experiencia del cliente en clínicas
+
+Según la Superintendencia Nacional de Salud (SUSALUD, 2025), más de 3 000 establecimientos de salud públicos y privados a nivel nacional reportaron sus turnos de atención programados mediante la plataforma TuASUSALUD entre 2023 y febrero de 2025. Asimismo, 857 establecimientos reportaron información sobre su producción asistencial. Estas cifras reflejan la magnitud de la gestión operativa requerida por los establecimientos de salud y la incorporación de herramientas digitales para administrar información relacionada con sus servicios. En este escenario, los administradores y responsables de operaciones de las clínicas requieren mecanismos que contribuyan a organizar la atención y mejorar la experiencia de los usuarios dentro de sus instalaciones.
+
+- **Datos demográficos:**
+
+  - Edad: Mayores de 25 años.
+  - Ocupación: Administradores, responsables de operaciones, coordinadores administrativos y responsables de experiencia o atención al cliente en clínicas.
+  - Lugar de residencia: Lima Metropolitana, Perú.  
+- **Problema:** Las clínicas presentan dificultades para orientar eficientemente a pacientes y acompañantes dentro de sus instalaciones, lo que puede generar consultas repetitivas al personal, desplazamientos innecesarios y retrasos para llegar a los distintos puntos de atención. Además, la señalización física puede resultar insuficiente ante cambios en consultorios, servicios o rutas internas.
+- **Necesidad:** Buscan mantener un control preciso del stock para evitar pérdidas y quiebres de inventario, mejorar la reposición de productos y maximizar sus ventas, asegurando una gestión más ordenada y rentable del negocio.Buscan mejorar la orientación y experiencia de los usuarios dentro de las clínicas, reduciendo las consultas relacionadas con la ubicación de áreas y facilitando el flujo de personas. Para ello, requieren una solución que permita administrar y actualizar mapas interiores, puntos de atención y rutas, proporcionando a pacientes y acompañantes una guía digital mediante realidad aumentada.

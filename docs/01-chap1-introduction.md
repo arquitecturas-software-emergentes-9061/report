@@ -2,11 +2,36 @@
 
 ## 1.1. Startup Profile
 
-*Qué debe ir: Presentar la startup y los perfiles de los integrantes del equipo.*
-
 ### 1.1.1. Descripción de la Startup
 
-*Qué debe ir: Describir la startup. El enunciado la entiende como una empresa de reciente creación, con potencial innovador y tecnológico y un modelo escalable.*
+Nombre de la Startup: UI-Topic
+
+Rumbo AR es una plataforma de navegación inteligente en espacios físicos, diseñada para orientar a pacientes y acompañantes dentro de clínicas de gran tamaño, especialmente a quienes visitan las instalaciones por primera vez o no están familiarizados con su distribución. A través de mapas interiores y realidad aumentada, Rumbo AR permite ubicar consultorios, áreas de atención y servicios, proporcionando indicaciones visuales paso a paso desde la ubicación del usuario hasta su destino. La plataforma busca reducir la desorientación, las consultas repetitivas al personal y el tiempo necesario para completar un trámite o llegar al lugar requerido, mejorando así la experiencia de los usuarios dentro de las instalaciones.
+
+##### Misión y Visión
+
+<table>
+  <thead>
+    <tr>
+      <th>Elemento</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Misión</strong></td>
+      <td>
+        Nuestra misión es facilitar la orientación y navegación de personas dentro de espacios físicos complejos mediante soluciones tecnológicas que permitan ubicarse y desplazarse de manera rápida, sencilla y precisa. Buscamos reducir la desorientación, las consultas repetitivas y el tiempo de desplazamiento de pacientes y acompañantes, integrando mapas interiores, realidad aumentada e información contextual para mejorar su experiencia dentro de las instituciones.
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Visión</strong></td>
+      <td>
+        Aspiramos a ser una referencia en soluciones inteligentes para la navegación de espacios interiores, impulsando la transformación digital de las instituciones mediante el uso de tecnologías innovadoras. Visualizamos un futuro donde las personas puedan orientarse de manera autónoma dentro de clínicas y otros espacios de gran tamaño, utilizando herramientas digitales que permitan desplazamientos más eficientes, accesibles y adaptados a las necesidades de cada usuario.
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### 1.1.2. Perfiles de integrantes del equipo
 

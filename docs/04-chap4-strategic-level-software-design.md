@@ -74,7 +74,7 @@ El **Software Architecture System Landscape Diagram** muestra el ecosistema gene
 
 La vista incluye al paciente o visitante; al personal operativo de la clínica; al personal de recepción o soporte que frecuentemente brinda indicaciones; a los sistemas de información de la clínica; a **Rumbo** como software system de interés; y a la capacidad externa de posicionamiento o referencia espacial. También se representan relaciones del ecosistema que no pasan necesariamente por Rumbo, como la consulta de información clínica u operativa y la solicitud tradicional de indicaciones al personal.
 
-![Software Architecture System Landscape Diagram](../assets/chapter-04/c4/system-landscape/system-landscape.png)
+![Software Architecture System Landscape Diagram](https://i.ibb.co/219BDGMz/image.png)
 
 **Elementos principales del landscape:**
 
@@ -91,7 +91,7 @@ La tecnología concreta utilizada para posicionamiento se mantiene intencionalme
 
 El **Software Architecture Context Level Diagram** representa la vista `systemContext` de Structurizr para **Rumbo**. En este nivel, el producto se presenta como el software system central y solo se incluyen personas y software systems que mantienen una relación directa con él.
 
-![Software Architecture Context Level Diagram](../assets/chapter-04/c4/context/context-diagram.png)
+![Software Architecture Context Level Diagram](https://i.ibb.co/5W43wgmP/image.png)
 
 Las relaciones directas consideradas son:
 
